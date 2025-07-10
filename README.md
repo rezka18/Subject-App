@@ -38,7 +38,7 @@ for subjects, ensuring data is well-organized and up-to-date.
 3. **Configure the database**
    - Import the provided MySQL database dump (if any) to your local MySQL server.
    - Make sure to update the database connection settings in the project if needed.
-   - Typical credentials: `localhost`, `root`, `your_password`, and `susur_sungai_db`.
+   - Typical credentials: `localhost`, `root`, `your_password`, and `subject_db`.
 
 4. **Build and Run**
    - Right-click on the project in NetBeans.
