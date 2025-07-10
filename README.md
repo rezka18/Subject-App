@@ -10,10 +10,8 @@ for subjects, ensuring data is well-organized and up-to-date.
 ---
 
 ## 🛠️ Built With
-- **JavaScript**
-- **TypeScript**
-- **Node.js** (if applicable)
-- **MySQL** or any relational database (adjust as needed)
+- **Java** (using Apache NetBeans IDE)
+- **MySQL** Database
 
 ---
 
@@ -29,26 +27,24 @@ for subjects, ensuring data is well-organized and up-to-date.
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/rezkanorhafizah/Subject-App.git
+   git clone https://github.com/rezkanorhafizah/Susur-Sungai-App.git
    ```
 
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
+2. **Open the project in Apache NetBeans**
+   - Open **Apache NetBeans IDE**.
+   - Click **File > Open Project**.
+   - Select the cloned folder `Susur-Sungai-App`.
 
-3. **Configure Database**
-   - Create a database (e.g., `subject_app_db`) and update connection settings in your `.env` or config file.
+3. **Configure the database**
+   - Import the provided MySQL database dump (if any) to your local MySQL server.
+   - Make sure to update the database connection settings in the project if needed.
+   - Typical credentials: `localhost`, `root`, `your_password`, and `susur_sungai_db`.
 
-4. **Run the Application**
-   ```bash
-   npm run dev
-   ```
+4. **Build and Run**
+   - Right-click on the project in NetBeans.
+   - Click **Clean and Build**.
+   - Click **Run Project**.
 
-5. **Build for Production**
-   ```bash
-   npm run build
-   ```
 
 ---
 
